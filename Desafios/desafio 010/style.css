@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid' ;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #84e1ad;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif
+    
+
+}
+.fontidroid{
+    
+    font-family: 'idroid' , times, serif;
+    font-size: 1.8em;
+    color: #1a5c38;
+}
+
+.fontidroid2{
+    background-image: linear-gradient(to right, #2ea3635e, #3ddb8441, #90dfb341, rgba(255, 255, 255, 0.705) ) ;
+    font-family: 'idroid', times, serif;
+    color: #1a5c38;
+    font-size: 1.3em;
+}
+main{
+    width: auto;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    margin: 0px 200px 40px ;
+    box-shadow: 2px 2px 11px;
+
+}
+
+header{
+    background-image: linear-gradient(to top,#195835,#1a5c38, #2EA363, #3DDB84);
+    color: white;
+    padding: 5px;
+    margin: 0px;
+}
+
+header > h1 {
+    text-align: center;
+}
+header > p{
+    text-align: center;
+}
+
+nav{
+    background-color: #1a5c38;
+    margin: 0px;
+    padding: 1px;
+
+}
+
+nav > a {
+    text-decoration: none;
+    margin-right:20px;
+    color: white;
+    padding: 4px;
+}
+
+nav > a:hover{
+    background-color: #84e1ad;
+    border-radius: 5px;
+}
+
+span{
+    font-weight:800;
+    color: #227547;
+}
+
+a{
+    text-decoration: none;
+    color: #227547;
+    font-weight: 700;
+}
+
+section{
+    width: auto;
+    background-color: #84e1ad;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    ;
+    
+
+    
+}
+
+section > aside{
+    background-color: #2FA866;
+    font-size: 15px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    margin: -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer{
+    background-color: #195835;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+
+}
+
+footer > p {
+    margin: 0px;
+    font-size: 0.7em;
+}
+
+
+
+img{
+    width: 100%;
+}
+
+.bugdroid{
+    width: center;
+    max-width: 70%;
+}
+
+
+@media (min-width: 568px) {
+    .droid-gr{
+        
+        display: block;
+    
+        
+    }
+    .droid-pq{        
+        display: none;
+        
+    }
+    
+    .irina-pq{
+        display: none;
+        
+    }
+    
+    .irina-gr{
+        display: block;
+    
+    }
+
+}

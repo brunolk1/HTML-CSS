@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient( to bottom, black, #454545, #919191);
+            color: #D1D1D1;
+        }
+
+        img#foto {
+        
+            height: 150px;
+            image-orientation:initial;
+            padding: 30px;
+            
+            
+        }
+
+        header {
+            background-color: #D1D1D1;
+            padding: 3px;
+
+        }
+
+        nav > a {
+            background-color: #D1D1D1;            
+            text-decoration: none;            
+            color: black;
+            margin-right: 30px;
+            text-align: center;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 4em; 
+            text-align: center;            
+        }
+
+        
+
+        .cumprimento {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2,75em;
+            text-decoration: underline;
+        }
+
+        h2 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2em; 
+        }
+
+        h3 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .corpo {
+            width: 500px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            margin: auto;
+            padding: 10px;
+            box-shadow: 5px 5px 15px #0000009d;
+            
+
+        }
+
+        p {
+            text-align: justify;
+        }
+        
+        li {
+            color: black;
+        }
+                                      
+            
+        strong {
+            color: rgba(0, 0, 0, 0.699);
+            font-size: large;
+            text-decoration: underline;
+        }
+        div {
+            display: inline-block;
+            background-color: none; 
+            width: 45px;
+            text-align: center;
+            color: black;
+            image-orientation: center;           
+        }
+        
+        
+        div:hover { 
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            
+        }
+        div.youtube img {
+            height: 27px;
+        }
+
+        div.insta img {
+            height: 27px;
+        }
+
+        div.linkedin img {
+            height: 27px;
+        }
+
+
+        
+
+        
+
+
+
+    
