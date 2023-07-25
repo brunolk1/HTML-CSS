@@ -1,0 +1,5 @@
+Capitulo 19 aula 06:
+
+shorthands para  fixar uma imagens; minuto: 06:04 
+
+posições: color > image > position > repeat > [size] > attanchment
