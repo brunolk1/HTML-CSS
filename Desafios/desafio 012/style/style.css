@@ -52,6 +52,11 @@ section {
     color: white;
 }
 
+.imagem > p {
+    width: 400px;
+    background-color: black;
+}
+
 footer {
     background-color: black;
     color: white;
